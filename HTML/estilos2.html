@@ -11,11 +11,42 @@
             margin: 0;
             padding: 0;
         }
+        
+        p {
+            width: 200px;
+            height: 50px;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.5;
+            /*separacion entre las lineas de texto*/
+            font-weight: bold;
+            /*900; de 100 a 900*/
+        }
+        /*el overflow con el scroll agrega la barra de desplazamiento*/
+        
+        div {
+            width: 400px;
+            height: 400px;
+            overflow-y: scroll;
+            background: beige url("assets/img/lenguajes_1-700x353.png") no-repeat center;
+            background-size: 50%;
+            border: 10px solid green;
+            border-top-color: blue;
+            border-radius: 10px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        h1 {
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
     <div>
+        <h1>Elementos de estilo</h1>
         <a href="#">Link de prueba</a>
         <p>hola</p>
     </div>
