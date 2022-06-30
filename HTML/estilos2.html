@@ -41,6 +41,31 @@
         h1 {
             text-align: center;
         }
+        /*posición: static, relative, fixed, absolute, st*/
+        
+        .estatico {
+            width: 500px;
+            height: 20px;
+            position: static;
+            /*posicion original, no hace nada*/
+        }
+        
+        .relativo {
+            width: 500px;
+            height: 20px;
+            left: 50px;
+            position: relative;
+            /**/
+        }
+        
+        .fijo {
+            width: 500px;
+            height: 20px;
+            right: 50px;
+            top: 0px;
+            position: fixed;
+            /*basado en la página entera*/
+        }
     </style>
 </head>
 
@@ -49,6 +74,15 @@
         <h1>Elementos de estilo</h1>
         <a href="#">Link de prueba</a>
         <p>hola</p>
+    </div>
+    <div class="estatico">
+        <p> este es un texto con posicionamiento estatico </p>
+    </div>
+    <div class="relativo">
+        <p> este es un texto con posicionamiento relativo </p>
+    </div>
+    <div class="fijo">
+        <p> este es un texto con posicionamiento fijo </p>
     </div>
 </body>
 
