@@ -14,7 +14,7 @@
             margin: 0px;
             margin-top: 15px;
             border: 1px solid black;
-            padding: 10px 20px 30px 40px;
+            padding: 0px 20px 30px 40px;
             box-sizing: border-box;
         }
         
@@ -22,17 +22,31 @@
             width: 40px;
             height: 40px;
             background-color: violet;
-            margin: 75px;
+            /*margin: 75px;*/
+            display: inline-block;
         }
         
         #hijo2 {
             width: 40px;
             height: 40px;
             background-color: salmon;
-            margin: 75px;
+            /*margin: 75px;*/
+            display: inline-block;
         }
         /*margin: efecto optico de desplazamiento*/
         /*padding: desplazar intermante elementos*/
+        /*elementos inline: <a><img><input><label><select><textarea>*/
+        /*elementos block: <body><div> <form> <h1>-<h6> <p> <table> <ul> <ol> <li>*/
+        /*NUNCA PONER ELEMENTOS DE BLOCK DENTRO DE UN ELEMENTO INLINE*/
+        
+        a {
+            display: block;
+            background-color: darkgray;
+        }
+        
+        p {
+            display: inline-block;
+        }
     </style>
 </head>
 
@@ -41,6 +55,19 @@
         <div id="hijo"></div>
         <div id="hijo2"></div>
     </div>
+
+
+    <!-- block -->
+    <a href="#grupo1">grupo1</a>
+    <a href="#grupo2">grupo2</a>
+    <a href="#grupo3">grupo3</a>
+    <a href="#grupo4">grupo4</a>
+    <a href="#grupo5">grupo5</a>
+    <a href="#grupo6">grupo6</a>
+
+    <p>hola esto es un texto cualquiera que tengo que poner aquí</p>
+    <p>hola esto es un texto copia para rellenar</p>
+
 </body>
 
 </html>
