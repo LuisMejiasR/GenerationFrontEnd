@@ -47,14 +47,61 @@
         p {
             display: inline-block;
         }
+        
+        #default1 {
+            width: 50px;
+            height: 100px;
+            background-color: red;
+            display: inline-block;
+        }
+        
+        #default2 {
+            width: 50px;
+            height: 200px;
+            background-color: blue;
+            display: inline-block;
+        }
+        
+        #top1 {
+            width: 50px;
+            height: 100px;
+            background-color: red;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        #top2 {
+            width: 50px;
+            height: 200px;
+            background-color: blue;
+            display: inline-block;
+            vertical-align: top;
+            /*se suele poner en todos los elementos sin importar si es más grande*/
+        }
+        
+        #middle1 {
+            width: 50px;
+            height: 100px;
+            background-color: red;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        #middle2 {
+            width: 50px;
+            height: 200px;
+            background-color: blue;
+            display: inline-block;
+            vertical-align: middle;
+        }
     </style>
 </head>
 
 <body>
-    <div id="padre">
+    <!--<div id="padre">
         <div id="hijo"></div>
         <div id="hijo2"></div>
-    </div>
+    </div>-->
 
 
     <!-- block -->
@@ -68,6 +115,23 @@
     <p>hola esto es un texto cualquiera que tengo que poner aquí</p>
     <p>hola esto es un texto copia para rellenar</p>
 
+    <!-- alineación vertical por defautl -->
+    <div>
+        <div id="default1"></div>
+        <div id="default2"></div>
+    </div>
+
+    <!-- alineación vertical superior (TOP) -->
+    <div>
+        <div id="top1"></div>
+        <div id="top2"></div>
+    </div>
+    <br>
+    <!-- alineación vertical central (Middle) -->
+    <div>
+        <div id="middle1"></div>
+        <div id="middle2"></div>
+    </div>
 </body>
 
 </html>
