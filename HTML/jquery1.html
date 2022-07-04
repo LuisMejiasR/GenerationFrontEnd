@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery 1</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            //se puede asignar funcionalidad por elemento, clase o id
+            //$('button').evento(funtion(){});
+            $('p').click(function() {
+                console.log($(this).text());
+                $(this).text('Esto es un texto por uso del this');
+            });
+
+
+            //get y set
+            $('#btn1').click(function() {
+                let parrafo1 = $('#p1').text(); //obtener los valores del elemento
+                alert("evento click " + parrafo1);
+                //set
+                $('#p1').text('Esto es un nuevo mensaje');
+            });
+            //funciones de efectos
+            //hide(); ocultar elementos
+            $('#btn2').click(function() {
+                $('#p2').hide();
+            });
+            //show(); mostrar elementos
+            $('#btn3').click(function() {
+                $('#p2').show();
+            });
+            //toggle(); mostrar u ocultar elementos
+            $('#btn4').click(function() {
+                $('#p2').toggle();
+            });
+
+            //slideUp(); ocultar elementos
+            $('#btn5').click(function() {
+                $('#p3').slideUp(500);
+            });
+            //slideDown()); mostrar elementos
+            $('#btn6').click(function() {
+                $('#p3').slideDown('fast');
+            });
+            //slideToggle(); mostrar u ocultar elementos
+            $('#btn7').click(function() {
+                $('#p3').slideToggle();
+            });
+
+            //fadeOut(); ocultar elementos
+            $('#btn8').click(function() {
+                $('#p4').fadeOut();
+            });
+            //fadeIn()); mostrar elementos
+            $('#btn9').click(function() {
+                $('#p4').fadeIn();
+            });
+            //fadeToggle(); mostrar u ocultar elementos
+            $('#btn10').click(function() {
+                $('#p4').fadeToggle();
+            });
+
+
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Getter y Setter</h1>
+    <p id="p1">Hola, esto es un parrafo numero uno.</p>
+    <button id="btn1">get y set</button>
+    <br>
+    <hr>
+    <!--Efectos -->
+    <!-- Hidde, Show, Toggle -->
+    <h2>Hide</h2>
+    <p id="p2">Hola, esto es un parrafo que se oculta.</p>
+    <button id="btn2">ocultar</button>
+    <button id="btn3">mostrar</button>
+    <button id="btn4">toggle 1</button>
+    <!-- slideUp, slideDown, slideToggle -->
+    <h2>Slide</h2>
+    <p id="p3">Hola, esto es un parrafo que se colapsa.</p>
+    <button id="btn5">arriba</button>
+    <button id="btn6">abajo</button>
+    <button id="btn7">toggle 2</button>
+    <br>
+    <hr>
+    <!-- fadeIn, fadeOut, fadeToggle -->
+    <h2>Fades</h2>
+    <p id="p4">Hola, esto es un parrafo que desaparece.</p>
+    <button id="btn8">fade out</button>
+    <button id="btn9">fade in</button>
+    <button id="btn10">toggle 3</button>
+    <br>
+    <hr>
+</body>
+
+</html>
