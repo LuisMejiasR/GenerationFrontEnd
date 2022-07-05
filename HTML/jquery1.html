@@ -64,9 +64,73 @@
                 $('#p4').fadeToggle();
             });
 
+            //manipulación de elementos html
+            //after: agrega elemento despues del elemento principal
+            $('#btn11').click(function() {
+                //$('#p5').after('<h2>titulo h2 </h2>');
+                $('#p5').after('<img src="" alt="prueba"/>');
+            });
+            //before: agrega elemento antes del elemento principal
+            $('#btn12').click(function() {
+                $('#p5').before('<h2>titulo h2 </h2>');
+                $('#p5').before('<img src="" alt="prueba"/>');
+            });
+            //append: agrega elemento dentro del elemento principal, al final (SE USA PARA CONSTRUIR SELECTORES DE FORMA DINAMICA)
+            $('#btn13').click(function() {
+                $('#p5').append('<span> esto es span </span>');
+            });
+            //prepend: agrega elemento dentro del elemento principal, al principio (SE USA PARA CONSTRUIR SELECTORES DE FORMA DINAMICA)
+            $('#btn14').click(function() {
+                $('#p5').prepend('<span> esto es span </span>');
+            });
+            //attr: agrega un ATRIBUTO al elemento HTML
+            $('#btn15').click(function() {
+                $('#p6').attr('name', 'parrafo6');
+                $('#txt1').attr('value', 'generation 1')
+            });
+            //removeAttr: elimina un ATRIBUTO al elemento HTML
+            $('#btn16').click(function() {
+                $('#p6').removeAttr('name', 'parrafo6');
+                $('#txt1').removeAttr('value', 'generation 1')
+            });
+            //HTML: crear elemento html pero borra todo lo anterior.
+            $('#btn17').click(function() {
+                $('#p7').html('<span>Esto es span</span>');
+            });
+            //val -> obtener el valor de un elemento html
+            $('#btn18').click(function() {
+                let valor = $('#txt2').val(); //capturar el valor del elemento
+                alert(valor);
+            });
+            //Manipulación de estilos
+            //css agregar un estilo a un elemento html
+            $('#btn19').click(function() {
+                $('#div1').html('<p id=p9> Esto es un parrafo dentro de div</p>');
+                $('#p9').css('color', 'gray');
+                $('#p9').css('font-size', '30px');
+            });
+            //Agregando una clase a elemento HTML.
+            $('#btn20').click(function() {
+                $('#div1').addClass('divColor');
+            });
+            //quita todas las clases, o la especificada.
+            $('#btn21').click(function() {
+                $('#div1').removeClass();
+            });
+
+
 
         });
     </script>
+    <style>
+        /*clase a asignar*/
+        
+        .divColor {
+            width: 400px;
+            height: 200px;
+            background-color: blue;
+        }
+    </style>
 </head>
 
 <body>
@@ -98,6 +162,44 @@
     <button id="btn10">toggle 3</button>
     <br>
     <hr>
+    <!-- Manipulacion -->
+    <h2>Manipulacion de elementos HTML</h2>
+    <p id="p5">Hola, esto es un parrafo cinco.</p>
+    <button id="btn11">after</button>
+    <button id="btn12">before</button>
+    <button id="btn13">append</button>
+    <button id="btn14">prepend</button>
+    <br>
+    <hr>
+    <!-- attr -->
+    <p id="p6">Hola, esto es un parrafo seis.</p>
+    <input type="text" id="txt1">
+    <button id="btn15">añadir atributo</button>
+    <button id="btn16">eliminar atributo</button>
+    <br>
+    <hr>
+    <!-- HTML -->
+    <h2>HTML</h2>
+    <p id="p7">Hola, esto es un parrafo siete.</p>
+    <button id="btn17">html</button>
+    <br>
+    <hr>
+    <!-- VAL -->
+    <h2>VAL</h2>
+    <p id="p7">Hola, esto es un parrafo ocho.</p>
+    <input type="text" id="txt2" value="valor input">
+    <button id="btn18">html</button>
+    <br>
+    <hr>
+    <!-- Manipulación de estilos -->
+    <div id="div1">
+
+    </div>
+    <button id="btn19">css</button>
+    <button id="btn20">addClass</button>
+    <button id="btn21">removeClass</button>
+
+
 </body>
 
 </html>
