@@ -1,0 +1,687 @@
+.agenda-clientes-agenda-clientes {
+    width: flex;
+    height: 844px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+    background-image: linear-gradient(180deg, rgba(99, 2, 159, 1) 0%, rgba(170, 125, 200, 1) 100%);
+  }
+  .agenda-clientes-svg {
+    top: 81px;
+    width: 100%;
+    height: 731;
+    position: absolute;
+  }
+  .agenda-clientes-svg01 {
+    top: 437px;
+    left: 7px;
+    width: 16;
+    height: 16;
+    position: absolute;
+  }
+  .agenda-clientes-svg02 {
+    top: 631px;
+    left: 7px;
+    width: 16;
+    height: 16;
+    position: absolute;
+  }
+  .agenda-clientes-boton {
+    top: 95px;
+    left: 84px;
+    width: 256px;
+    display: flex;
+    padding: 13px 99px;
+    position: absolute;
+    box-shadow: 0px 4px 12px 4px rgba(172, 127, 200, 0.25) ;
+    box-sizing: border-box;
+    align-items: center;
+    border-color: transparent;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgba(172, 127, 200, 1);
+  }
+  .agenda-clientes-text {
+    color: rgba(250, 250, 250, 1);
+    height: auto;
+    margin: 0 10px 0 0;
+    font-size: 32px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-svg03 {
+    width: 17;
+    height: 10;
+  }
+  .agenda-clientes-boton1 {
+    top: 393px;
+    left: 35px;
+    width: 305px;
+    height: 98px;
+    display: flex;
+    padding: 13px 99px 13px 24px;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(220, 208, 227, 1) ;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: rgba(172, 127, 200, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .agenda-clientes-stars {
+    top: 61px;
+    left: 176px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .agenda-clientes-text01 {
+    top: 13px;
+    left: 24px;
+    color: rgba(141, 80, 179, 1);
+    width: 237px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-text02 {
+    color: rgba(141, 80, 179, 1);
+    width: 237px;
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-text06 {
+    color: rgba(172, 127, 200, 1);
+    width: 237px;
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-boton2 {
+    top: 645px;
+    left: 35px;
+    width: 305px;
+    height: 98px;
+    display: flex;
+    padding: 13px 99px 13px 24px;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(220, 208, 227, 1) ;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: rgba(172, 127, 200, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .agenda-clientes-stars1 {
+    top: 61px;
+    left: 176px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .agenda-clientes-text12 {
+    top: 13px;
+    left: 24px;
+    color: rgba(141, 80, 179, 1);
+    width: 237px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-text13 {
+    color: rgba(141, 80, 179, 1);
+    width: 237px;
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-text17 {
+    color: rgba(172, 127, 200, 1);
+    width: 237px;
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-boton3 {
+    top: 519px;
+    left: 35px;
+    width: 305px;
+    height: 98px;
+    display: flex;
+    padding: 13px 99px 13px 24px;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(220, 208, 227, 1) ;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: rgba(172, 127, 200, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .agenda-clientes-text23 {
+    top: 13px;
+    left: 24px;
+    color: rgba(141, 80, 179, 1);
+    width: 237px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-text24 {
+    color: rgba(141, 80, 179, 1);
+    width: 237px;
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-text28 {
+    color: rgba(172, 127, 200, 1);
+    width: 237px;
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-rectangle27 {
+    top: 173px;
+    left: 35px;
+    width: 467px;
+    height: 61px;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(245, 236, 251, 0.25) ;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(172, 127, 200, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: rgba(245, 236, 251, 1);
+  }
+  .agenda-clientes-svg04 {
+    top: 190px;
+    left: 45px;
+    width: 28;
+    height: 28;
+    position: absolute;
+  }
+  .agenda-clientes-boton4 {
+    top: 184px;
+    left: 92px;
+    width: 148px;
+    height: 39px;
+    display: flex;
+    padding: 13px 99px;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(220, 208, 227, 1) ;
+    box-sizing: border-box;
+    align-items: center;
+    border-color: rgba(172, 127, 200, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgba(141, 80, 179, 1);
+  }
+  .agenda-clientes-text34 {
+    color: rgba(245, 236, 251, 1);
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-boton5 {
+    top: 184px;
+    left: 251px;
+    width: 137px;
+    height: 39px;
+    display: flex;
+    padding: 13px 99px;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(220, 208, 227, 1) ;
+    box-sizing: border-box;
+    align-items: center;
+    border-color: rgba(172, 127, 200, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .agenda-clientes-svg05 {
+    top: 243px;
+    left: 7px;
+    width: 16;
+    height: 16;
+    position: absolute;
+  }
+  .agenda-clientes-text35 {
+    top: 190px;
+    left: 261px;
+    color: rgba(172, 127, 200, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-boton6 {
+    top: 267px;
+    left: 35px;
+    width: 305px;
+    height: 98px;
+    display: flex;
+    padding: 13px 99px 13px 24px;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(220, 208, 227, 1) ;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: rgba(172, 127, 200, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .agenda-clientes-text36 {
+    top: 13px;
+    left: 24px;
+    color: rgba(141, 80, 179, 1);
+    width: 237px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-text37 {
+    color: rgba(141, 80, 179, 1);
+    width: 237px;
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-text41 {
+    color: rgba(172, 127, 200, 1);
+    width: 237px;
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-group1000000860 {
+    top: 247px;
+    left: 41px;
+    width: 300px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .agenda-clientes-group1000000847 {
+    top: 0px;
+    left: 0px;
+    width: 61px;
+    height: 19px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .agenda-clientes-text47 {
+    top: 0px;
+    left: 0px;
+    color: rgba(219, 199, 231, 1);
+    width: 61px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 900px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-rectangle746 {
+    top: 20px;
+    left: 19px;
+    width: 281px;
+    height: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(219, 199, 231, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .agenda-clientes-group1000000861 {
+    top: 373px;
+    left: 41px;
+    width: 300px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .agenda-clientes-group10000008471 {
+    top: 0px;
+    left: 0px;
+    width: 61px;
+    height: 19px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .agenda-clientes-text48 {
+    top: 0px;
+    left: 0px;
+    color: rgba(219, 199, 231, 1);
+    width: 61px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 900px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-rectangle7461 {
+    top: 20px;
+    left: 19px;
+    width: 281px;
+    height: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(219, 199, 231, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .agenda-clientes-group1000000862 {
+    top: 499px;
+    left: 41px;
+    width: 300px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .agenda-clientes-group10000008472 {
+    top: 0px;
+    left: 0px;
+    width: 61px;
+    height: 19px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .agenda-clientes-text49 {
+    top: 0px;
+    left: 0px;
+    color: rgba(219, 199, 231, 1);
+    width: 61px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 900px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-rectangle7462 {
+    top: 20px;
+    left: 19px;
+    width: 281px;
+    height: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(219, 199, 231, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .agenda-clientes-group1000000863 {
+    top: 625px;
+    left: 41px;
+    width: 300px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .agenda-clientes-group10000008473 {
+    top: 0px;
+    left: 0px;
+    width: 61px;
+    height: 19px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .agenda-clientes-text50 {
+    top: 0px;
+    left: 0px;
+    color: rgba(219, 199, 231, 1);
+    width: 61px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 900px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-rectangle7463 {
+    top: 20px;
+    left: 19px;
+    width: 281px;
+    height: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(219, 199, 231, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .agenda-clientes-rectangle103 {
+    top: 727px;
+    left: 0px;
+    width: 383px;
+    height: 85px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+    background-color: rgba(172, 127, 200, 1);
+  }
+  .agenda-clientes-svg06 {
+    top: 749px;
+    left: 98px;
+    width: 30;
+    height: 33;
+    position: absolute;
+  }
+  .agenda-clientes-svg07 {
+    top: 752px;
+    left: 257px;
+    width: 35;
+    height: 30;
+    position: absolute;
+  }
+  .agenda-clientes-group {
+    top: 748.0000610351562px;
+    left: 32px;
+    width: 40px;
+    height: 34px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .agenda-clientes-svg08 {
+    top: 752px;
+    left: 319px;
+    width: 34;
+    height: 34;
+    position: absolute;
+  }
+  .agenda-clientes-text51 {
+    top: 32px;
+    left: 110px;
+    color: rgba(245, 236, 251, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .agenda-clientes-svg09 {
+    top: 697px;
+    left: 143px;
+    width: 89;
+    height: 89;
+    position: absolute;
+  }
+  .agenda-clientes-svg10 {
+    top: 716px;
+    left: 162px;
+    width: 51;
+    height: 51;
+    position: absolute;
+  }
