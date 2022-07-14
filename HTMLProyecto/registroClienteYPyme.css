@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    position: relative;
+    padding: 10px;
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+#logo {
+    margin-top: 30px;
+    margin-left: 110.5px;
+    margin-bottom: 30px;
+}
+
+#texto1 {
+    width: 313px;
+    text-align: left;
+    margin-left: 19px;
+    margin-top: 15px;
+}
+
+#info {
+    margin-top: 50px;
+    margin-left: 31px;
+}
+
+#boton1 {
+    text-align: center;
+}
+
+#boton2 {
+    text-align: center;
+}
+
+#cuadroTexto {
+    text-align: center;
+}
+
+#texto2 {
+    margin-top: 15px;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    color: #AC7FC8;
+}
+
+.rrss {
+    display: inline-table;
+    margin: 5px;
+}

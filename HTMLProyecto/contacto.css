@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    position: relative;
+    padding: 10px;
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+#logo {
+    margin-top: 30px;
+    margin-left: 110.5px;
+    margin-bottom: 30px;
+}
+
+#texto1 {
+    padding: 10px;
+    text-align: center;
+}
+
+#texto2 {
+    width: 313px;
+    text-align: left;
+    margin-left: 31px;
+    margin-top: 15px;
+    color: #ac7fc8;
+}
+
+#boton1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#boton2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#duda {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#correo1 {
+    text-align: center;
+    margin-top: 5px;
+}

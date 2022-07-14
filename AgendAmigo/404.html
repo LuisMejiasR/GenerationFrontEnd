@@ -1,70 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Position Practice</title>
+    <title>404</title>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script>
-        
-    </script>
     <style>
-        #cabecera{
-            position: sticky;
-            top: 0;
-        }
-
-        #wrapper{
+        #botonHome{
             background-color: #AC7FC8;
-            padding-top: 5vw;
-            overflow-x: unset;
-            /*padding*/
-            padding-right: 0;
-            padding-left: 2vw;
-            /*margenes*/
-            margin-bottom: 0;
-            margin-left: auto;
-            margin-right: auto;
+            color: aliceblue;
+            font-weight: 400;
+        }
+        
+        #ups{
+            color:#8D50B3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
         }
 
-        /*BOTÓN GRANDE DE CLIENTE*/
-        #selectorFiltro{
-            /*margenes*/
-            margin-left: auto;
-            margin-right: auto;
-            /*pocision*/
-            position: relative;
-            top: 7vw;
-            
+        #id404{
+            color:#63029F;
+            font-size: 7em;
         }
 
-        /*BOTÓN RADIO DE ORDEN ALFABETICO*/
-        #radioFiltro{
-            
-            /*pocision*/
-            position: relative;
-            top: 9vw;
-            
+        #txt1{
+            font-size: 1.25em;
+            color: #8D50B3;
+            font-weight: 500;
         }
-
-        #rectanguloFondo{
-            width: 95vw;
-            /*desborde*/
-            overflow-y: hidden;
-            overflow-x: unset;
-            /*forma de vista*/
-            display: inline-block;
-            align-self: center;
-            /*margenes y padding*/
-            margin-left: auto;
-            margin-right: auto;
+        #txt2{
+            font-size: 1.20em;
+            color: #B44BF4;
+            font-weight: 500;
+        }
+        #txt3{
+            font-weight: 700;
+        }
+        @media screen and (min-width: 550px){
+            #img404{
+                height: 
+            }
             
-;
         }
     </style>
 </head>
-
 <body>
     <!-- Cabecera -->
     <header>
@@ -113,40 +94,25 @@
         </div>
         </nav>
     </header>
-
+    
     <div>
-        <div class="container-fluid" id="wrapper">
-            <div>
-                <!-- botón GRANDE: tipo de ordenamiento -->
-                <div id="selectorFiltro" class="btn-group">
-                    <button class="btn btn-warning btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Clientes
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Clientes</a></li>
-                        <li><a class="dropdown-item" href="#">Empleados</a></li>
-                        <li><a class="dropdown-item" href="#">Servicios</a></li>
-                    </ul>
-                    <br>
-                    
-                </div>
-                <br>
-                <!-- botón radio: tipo de ordenamiento -->
-                <div id="radioFiltro" class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                    <label class="btn btn-outline-warning" for="btnradio1">Alfabetico</label>
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                    <label class="btn btn-outline-warning" for="btnradio2">Servicio Ofrecido</label>
-                </div>
-            </div>
-            <img id="rectanguloFondo" src="/assets/img/Rectangle 102.svg">
-            
+        <!-- texto arriba-->
+        <div>
+            <p id="ups" class="d-flex justify-content-center mt-5 mb-0">¡Ups!</p>
+            <h2 id="id404" class="d-flex justify-content-center mt-0 mb-0">404</h2>
+        </div>
+        <!-- imagen y texto centro -->
+        <div>
+            <img id="img404" src="/assets/img/TND_M380_09.jpg" class="img-fluid d-block w-100"/>
+            <p id="txt1" class="d-flex justify-content-center mb-0">No pudimos encontrar la página</p>
+            <p id="txt2" class="d-flex justify-content-center">que estabas buscando</p>
+            <p id="txt3" class="d-flex justify-content-center mt-5 mb-5">¡Intenta otra vez!</p>
+        </div>
+        <!-- botón de home -->
+        <div class="d-grid gap-2 mx-5 mb-5">
+            <a id="botonHome" href="slides.html" class="btn btn-light" role="button">Ir a la página principal</a>
         </div>
     </div>
-
-    
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-
 </html>
