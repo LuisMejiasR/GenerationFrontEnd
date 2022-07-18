@@ -1,13 +1,12 @@
 import React from "react";
-import UsuarioComponent from "./components/UsuarioComponent";
+import HomeServicioComponent from "./components/HomeServicioComponent";
 
-//formato de funcion básica
+
+
 const App = () => {
-    return (
-        <UsuarioComponent/>
-    );
+    return(<>
+        <HomeServicioComponent/>
+    </>);
 };
 
-//para exportar la funcion, tiene el mismo nombre
 export default App;
-

@@ -1,6 +1,6 @@
 import React from "react";
 
-const AnimeComponent = ({anime}) => {
+const AnimeComponent = ({anime, animeDelete}) => {
     return (<div className="card">
     <div className="card-body ms-5">
         <li>
@@ -10,7 +10,7 @@ const AnimeComponent = ({anime}) => {
             <p>Genero: {anime.genero}</p>
             <div className="d-flex justify-content-end">
                 <button className="btn btn-sm btn-outline-primary me-2">Editar</button>
-                <button className="btn btn-sm btn-outline-danger">Eliminar</button>
+                <button className="btn btn-sm btn-outline-danger" onClick={() => animeDelete(anime.key)}>Eliminar</button>
             </div>
         </li>
         
